@@ -23,7 +23,7 @@ Cada una de las 4 fábricas tiene 9 tipos de máquinas que envían un mensaje de
 ### Resultado
 La fábrica **Seiko** concentra el mayor tiempo de inactividad, y dentro de ella, el **LaserWelder** es el tipo de máquina que más contribuye al problema, un hallazgo accionable para priorizar mantenimiento preventivo.
 
-![Dashboard de Downtime](dashboard-downtime-daikibo.png)
+![Dashboard de Downtime](dashboard-downtime-daikibo.jpg)
 
 ## Parte 2: Clasificación de Equidad Salarial (Excel)
 

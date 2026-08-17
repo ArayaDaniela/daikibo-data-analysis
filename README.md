@@ -18,7 +18,7 @@ Cada una de las 4 fábricas tiene 9 tipos de máquinas que envían un mensaje de
 - Importé el JSON en Tableau, asegurando incluir todos los niveles del esquema (los datos de estado y ubicación estaban anidados dentro de sub-objetos, y de no marcarlos, esa información quedaba fuera del análisis).
 - Creé un campo calculado **"Unhealthy"** que asigna 10 minutos de downtime a cada registro con estado "unhealthy" (representando el tiempo hasta el siguiente mensaje de control), y 0 en caso contrario. Esto transforma un dato de estado puntual en una métrica acumulable de tiempo de inactividad.
 - Construí dos visualizaciones: downtime total por fábrica, y downtime total por tipo de máquina.
-- Conecté ambos gráficos mediante un filtro interactivo: al seleccionar una fábrica en el primer gráfico, el segundo se actualiza mostrando solo las máquinas de esa fábrica — permitiendo aislar el problema específico dentro de la ubicación más afectada.
+- Conecté ambos gráficos mediante un filtro interactivo: al seleccionar una fábrica en el primer gráfico, el segundo se actualiza mostrando solo las máquinas de esa fábrica, permitiendo aislar el problema específico dentro de la ubicación más afectada.
 
 ### Resultado
 La fábrica **Seiko** concentra el mayor tiempo de inactividad, y dentro de ella, el **LaserWelder** es el tipo de máquina que más contribuye al problema, un hallazgo accionable para priorizar mantenimiento preventivo.

@@ -47,6 +47,8 @@ Daikibo Factory Seiko concentra la mayor proporción de cargos clasificados como
 
 Es un hallazgo relevante que Seiko aparece como la fábrica más crítica en ambos análisis: la de mayor downtime operacional y también la de mayor inequidad salarial, lo que sugiere que podría valer la pena revisar de forma más amplia la gestión de esa planta específica.
 
+El archivo completo con la clasificación aplicada está disponible en este repositorio: `Equality Table.xlsx`
+
 ## Herramientas utilizadas
 * Tableau: modelado de datos JSON, campos calculados, dashboards interactivos
 * Excel: lógica condicional anidada, clasificación de datos

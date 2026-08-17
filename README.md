@@ -42,14 +42,14 @@ Implementé esto con la fórmula:
 =SI(ABS(C2)>20;"Highly Discriminative";SI(ABS(C2)>10;"Unfair";"Fair"))
 ```
 
-### Resultado
-**Daikibo Factory Seiko** concentra la mayor proporción de cargos clasificados como "Highly Discriminative" (Sr. Manager, Manager y Jr. Manager con scores de -21, -21 y -24 respectivamente), mientras que **Daikibo Berlin** muestra los scores más equilibrados, con varios cargos "Fair" e incluso un score de 0 (equidad perfecta).
+## Resultado
+Daikibo Factory Seiko concentra la mayor proporción de cargos clasificados como "Highly Discriminative" (Sr. Manager, Manager y Jr. Manager con scores de -21, -21 y -24 respectivamente), mientras que Daikibo Berlin muestra los scores más equilibrados, con varios cargos "Fair" e incluso un score de 0 (equidad perfecta).
 
-Es un hallazgo relevante que **Seiko aparece como la fábrica más crítica en ambos análisis** — la de mayor downtime operacional y también la de mayor inequidad salarial — sugiriendo que podría valer la pena revisar de forma más amplia la gestión de esa planta específica.
+Es un hallazgo relevante que Seiko aparece como la fábrica más crítica en ambos análisis: la de mayor downtime operacional y también la de mayor inequidad salarial, lo que sugiere que podría valer la pena revisar de forma más amplia la gestión de esa planta específica.
 
 ## Herramientas utilizadas
-- **Tableau** — modelado de datos JSON, campos calculados, dashboards interactivos
-- **Excel** — lógica condicional anidada, clasificación de datos
+* Tableau: modelado de datos JSON, campos calculados, dashboards interactivos
+* Excel: lógica condicional anidada, clasificación de datos
 
 ## Reflexión
 Este proyecto refuerza mi experiencia previa como analista en el área de finanzas, donde trabajé con datos operacionales y de negocio para apoyar la toma de decisiones. Aquí apliqué el mismo enfoque analítico, transformando datos crudos en métricas accionables, en un contexto industrial y de recursos humanos, ampliando además mi manejo de Tableau como herramienta de visualización.
